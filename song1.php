@@ -11,36 +11,40 @@
         <link href="css/styles.css" rel="stylesheet" />
         <style>
         .tab1 {
-            tab-size: 2;
-        }
-  
+            tab-size: 2;}
         .tab2 {
-            tab-size: 4;
-        }
-  
+            tab-size: 4;}
         .tab4 {
-            tab-size: 8;
+            tab-size: 8;}
+        .img { border-radius: 50%;  }
+         h2.red-text {color: lightblue;}
 
-         
-}   .img {
-  border-radius: 50%;
-        }
+         .line:hover{
+      text-decoration:underline; 
+      text-decoration-thickness: 2px;       
+     }
+
+     .glow:hover{
+        background: rgb(100, 100, 100);
+        padding: 5px 5px;
+        transition: all 0.2s ease-in-out;
+     }
     </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
             <div class="container px-0">
-                 <a href="index.php"><img class='img' src="assets\logo.jpg" height=50px width=50px></a>
+                 <a href="index.php" title="Home Page"><img class='img glow' src="assets\logo.jpg" height=50px width=50px></a>
                 <a class="navbar-brand" href="#page-top"><h2><b> &ensp; Symphony of Grace</b></h2></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-light" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song3.php">Song 3</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song4.php">Song 4</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="song5.php">Song 5</a></li>
+                        <li class="nav-item"><a class="nav-link text-light line" href="song1.php">Song 1</a></li>
+                        <li class="nav-item"><a class="nav-link text-light line" href="song2.php">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light line" href="song3.php">Song 3</a></li>
+                        <li class="nav-item"><a class="nav-link text-light line" href="song4.php">Song 4</a></li>
+                        <li class="nav-item"><a class="nav-link text-light line" href="song5.php">Song 5</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,70 +65,128 @@
                        
                         <?php
 
-                        echo "<h2 class='text-primary'>AMAZING GRACE</h2>";
-                        echo "<p class='lead'>John Newton</p>";
+                        echo "<h2 class='red-text'>VICTORY IN JESUS</h2>";
+                        echo "<p class='lead'>Tony Weeks</p>";
 
-                        echo "<p>[REFRAIN]</p>";
+                    echo "<p>[VERSE 1]</p>";
 
-                        echo "<pre class='tab4'>G    G7           C         G</pre>";
-                        echo "<p>Amazing Grace! (how sweet the sound)</p>";
-                        echo "<pre class='tab4'>                    D</pre>";
-                        echo "<p> That saved a wretch like me!</p>";
-                        echo "<pre class='tab4'> G        G7        C      G</pre>";
-                        echo "<p>I once was lost, but now am found,</p>";
-                        echo "<pre class='tab4'>   Em        D    G</pre>";
-                        echo "<p>Was blind, but now I see.</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>I heard an old, old story,</p>";
+                        echo "<pre class='tab4'>  C                G</pre>";
+                        echo "<p>How a Savior came from glory,</p>";
+                        echo "<pre class='tab4'>                    Em</pre>";
+                        echo "<p>How He gave His life on Calvary</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>To save a wretch like me;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>I heard about His groaning,</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>Of His precious blood's atoning,</p>";
+                        echo "<pre class='tab4'>                   Em</pre>";
+                        echo "<p>Then I repented of my sins,</p>";
+                        echo "<pre class='tab4'>    D             G</pre>";
+                        echo "<p>And won the victory.</p>";
                         echo "<br/>";
 
-                        echo "<p>[VERSE 1]</p>";
+                    echo "<p>[CHORUS]</p>";
 
-                        echo "<pre class='tab4'>G    G7           C         G</pre>";
-                        echo "<p>'Twas grace that taught my heart to fear,</p>";
-                        echo "<pre class='tab4'>                    D</pre>";
-                        echo "<p> And grace my fears relieved.</p>";
-                        echo "<pre class='tab4'> G        G7        C      G</pre>";
-                        echo "<p>How precious did that grace appear,</p>";
-                        echo "<pre class='tab4'>   Em        D    G</pre>";
-                        echo "<p>The hour I first believed.</p>";
+                        echo "<pre class='tab4'>G               </pre>";
+                        echo "<p>O victory in Jesus,</p>";
+                        echo "<pre class='tab4'>C       G  </pre>";
+                        echo "<p>My Savior, forever.</p>";
+                        echo "<pre class='tab4'>          Em</pre>";
+                        echo "<p>He sought me and bought me</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>With His redeeming blood;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>He loved me ere I knew Him</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>And all my love is due Him,</p>";
+                        echo "<pre class='tab4'>   Em             G     </pre>";
+                        echo "<p>He plunged me to victory,</p>";
+                        echo "<pre class='tab4'>D                   G   </pre>";
+                        echo "<p>Beneath the cleansing flood.</p>";
                         echo "<br/>";
 
-                        echo "<p>[VERSE 2]</p>";
+                    echo "<p>[VERSE 2]</p>";
 
-                        echo "<pre class='tab4'>G    G7           C         G</pre>";
-                        echo "<p>Through many dangers, toils and snares</p>";
-                        echo "<pre class='tab4'>                    D</pre>";
-                        echo "<p>We have already come</p>";
-                        echo "<pre class='tab4'> G        G7        C      G</pre>";
-                        echo "<p>'Twas grace hath brought us safe thus far</p>";
-                        echo "<pre class='tab4'>   Em        D    G</pre>";
-                        echo "<p>And grace will lead us home</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>I heard about His healing,</p>";
+                        echo "<pre class='tab4'>  C                G</pre>";
+                        echo "<p>Of His cleansing pow'r revealing.</p>";
+                        echo "<pre class='tab4'>                    Em</pre>";
+                        echo "<p>How He made the lame to walk again</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>And caused the blind to see;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>And then I cried, \"Dear Jesus,</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>Come and heal my broken spirit,\"</p>";
+                        echo "<pre class='tab4'>                   Em</pre>";
+                        echo "<p>And somehow Jesus came and bro't</p>";
+                        echo "<pre class='tab4'>    D             G</pre>";
+                        echo "<p>To me the victory.</p>";
                         echo "<br/>";
 
-                        echo "<p>[VERSE 3]</p>";
+                        echo "<p>[CHORUS]</p>";
 
-                        echo "<pre class='tab4'>G    G7           C         G</pre>";
-                        echo "<p>When we've been there ten thousand years,</p>";
-                        echo "<pre class='tab4'>                    D</pre>";
-                        echo "<p>Bright shining as the sun,</p>";
-                        echo "<pre class='tab4'> G        G7        C      G</pre>";
-                        echo "<p>We've no less days to sing God's praise</p>";
-                        echo "<pre class='tab4'>   Em        D    G</pre>";
-                        echo "<p>Than when we first begun.</p>";
+                        echo "<pre class='tab4'>G               </pre>";
+                        echo "<p>O victory in Jesus,</p>";
+                        echo "<pre class='tab4'>C       G  </pre>";
+                        echo "<p>My Savior, forever.</p>";
+                        echo "<pre class='tab4'>          Em</pre>";
+                        echo "<p>He sought me and bought me</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>With His redeeming blood;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>He loved me ere I knew Him</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>And all my love is due Him,</p>";
+                        echo "<pre class='tab4'>   Em             G     </pre>";
+                        echo "<p>He plunged me to victory,</p>";
+                        echo "<pre class='tab4'>D                   G   </pre>";
+                        echo "<p>Beneath the cleansing flood.</p>";
                         echo "<br/>";
 
-                        echo "<p>[REFRAIN]</p>";
+                    echo "<p>[VERSE 3]</p>";
 
-                        echo "<pre class='tab4'>G    G7           C         G</pre>";
-                        echo "<p>Amazing Grace! (how sweet the sound)</p>";
-                        echo "<pre class='tab4'>                    D</pre>";
-                        echo "<p> That saved a wretch like me!</p>";
-                        echo "<pre class='tab4'> G        G7        C      G</pre>";
-                        echo "<p>I once was lost, but now am found,</p>";
-                        echo "<pre class='tab4'>   Em        D    G</pre>";
-                        echo "<p>Was blind, but now I see.</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>I heard about a mansion</p>";
+                        echo "<pre class='tab4'>  C                G</pre>";
+                        echo "<p>He has built for me in glory.</p>";
+                        echo "<pre class='tab4'>                    Em</pre>";
+                        echo "<p>And I heard about the streets of gold</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>Beyond the crystal sea;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>About the angels singing,</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>And the old redemption story,</p>";
+                        echo "<pre class='tab4'>                   Em</pre>";
+                        echo "<p>And some sweet day I'll sing up there</p>";
+                        echo "<pre class='tab4'>    D             G</pre>";
+                        echo "<p>The song of victory.</p>";
                         echo "<br/>";
 
+                        echo "<p>[CHORUS]</p>";
 
+                        echo "<pre class='tab4'>G               </pre>";
+                        echo "<p>O victory in Jesus,</p>";
+                        echo "<pre class='tab4'>C       G  </pre>";
+                        echo "<p>My Savior, forever.</p>";
+                        echo "<pre class='tab4'>          Em</pre>";
+                        echo "<p>He sought me and bought me</p>";
+                        echo "<pre class='tab4'>   A                  D</pre>";
+                        echo "<p>With His redeeming blood;</p>";
+                        echo "<pre class='tab4'>G                  </pre>";
+                        echo "<p>He loved me ere I knew Him</p>";
+                        echo "<pre class='tab4'>  C                 G</pre>";
+                        echo "<p>And all my love is due Him,</p>";
+                        echo "<pre class='tab4'>   Em             G     </pre>";
+                        echo "<p>He plunged me to victory,</p>";
+                        echo "<pre class='tab4'>D                   G   </pre>";
+                        echo "<p>Beneath the cleansing flood.</p>";
+                        echo "<br/>";
 
 
                         echo "<br/>";
@@ -135,7 +197,8 @@
         </section>
 
         <footer class="py-3 bg-info">
-            <div class="container px-4"><p class="m-0 text-center text-black">Copyright &copy; 2022. Ian Mapacpac</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-black">Copyright &copy; 2022. 
+                <a href="https://web.facebook.com/ian.mapacpac" target="_blank">Ian Mapacpac</a></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
